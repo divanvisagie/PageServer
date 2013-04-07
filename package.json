@@ -1,0 +1,27 @@
+{
+  "name": "pageserver",
+  "description": "Static Page and file server module",
+  "version": "0.0.0",
+  "author": "Divan Visagie <visagiedivan@gmail.com>",
+  "contributors": [ 
+    { "name": "Divan Visagie", "email": "visagiedivan@gmail.com" }
+  ],
+  "dependencies": {
+
+    "events": ">= 0.5.0",
+    "colors" : ">= 0.6.0",
+    "mime" : ">= 1.2.0"
+  },
+  "devDependencies": {
+    
+  },
+  "keywords": [ "pageserver" , "static" ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/divanvisagie/PageServer"
+  },
+  "main": "./lib/pageserver",
+  "preferGlobal": "false",
+  "scripts" : { "test" : "node ./tests/test.js" },
+  "engines": { "node": ">= 0.8.4" }
+}
