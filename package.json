@@ -1,7 +1,7 @@
 {
   "name": "pageserver",
-  "description": "Static Page and file server module",
-  "version": "0.0.0",
+  "description": "Simple module for serving static pages and files out of a specified directory",
+  "version": "0.0.1",
   "author": "Divan Visagie <visagiedivan@gmail.com>",
   "contributors": [ 
     { "name": "Divan Visagie", "email": "visagiedivan@gmail.com" }
@@ -10,7 +10,8 @@
 
     "events": ">= 0.5.0",
     "colors" : ">= 0.6.0",
-    "mime" : ">= 1.2.0"
+    "mime" : ">= 1.2.0",
+    "oppressor" : ">= 0.0.1"
   },
   "devDependencies": {
     
@@ -23,5 +24,5 @@
   "main": "./lib/pageserver",
   "preferGlobal": "false",
   "scripts" : { "test" : "node ./tests/test.js" },
-  "engines": { "node": ">= 0.8.4" }
+  "engines": { "node": ">= 0.8.x" }
 }
