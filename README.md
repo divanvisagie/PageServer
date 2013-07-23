@@ -1,6 +1,9 @@
 PageServer
 ==========
 
+[![NPM version](https://badge.fury.io/js/pageserver.png)](http://badge.fury.io/js/pageserver)
+[![NGN Dependencies](https://david-dm.org/divanvisagie/PageServer.png)](https://david-dm.org/divanvisagie/PageServer)
+
 Simple Server for serving static pages and files out of a specified directory
 
 ## Installation 
