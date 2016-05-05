@@ -8,23 +8,23 @@ Simple Server for serving static pages and files out of a specified directory
 
 ## Installation 
 
-	npm install pageserver
+```sh
+npm install pageserver
+```
 
 ## Usage
+```js
+var pageServer = require( 'pageserver' );
 
-	var pageServer = require( 'pageserver' );
+var server = pageServer({
+	port : 8079,
+	path : __dirname + '/www_root'
+});
 
-	var server = pageServer({
-
-		port : 8079,
-		path : __dirname + '/www_root'
-	});
-
-	server.on( 'error' , function(){
-
-		console.log( 'error:' , arguments );
-	} );
-
+server.on('error',function(){
+  console.log( 'error:' , arguments );
+});
+```
 pageServer supports a single paramater as an object with teh following properties:
 
 | Property		 | Description							 		 |
