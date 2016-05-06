@@ -1,11 +1,18 @@
 language: node_js
 node_js:
-  - "5.1"
-  - "4"
-  - "4.2"
-  - "4.1"
+- '5.1'
+- '4'
+- '4.2'
+- '4.1'
 before_script:
-  - npm install -g jasmine
-  - npm install -g phantomjs-prebuilt
-  - npm install
+- npm install -g jasmine
+- npm install -g phantomjs-prebuilt
+- npm install
 script: npm test
+deploy:
+  provider: npm
+  email: visagiedivan@gmail.com
+  api_key:
+    secure: AsoEk/6KqMORynvCR1lXrgEnr3rS651KAl2TDKZ2TWq1ZvqWdbFlERnZwVHGsSYbyxqaza2y+8CUTuSKhmbJvb30Rl5FI2a4kRBm4ihWrSIj2o4Y7SXovyvcK2oQFi1Ozfno6xUM2q7T0uiKDOepJc/BHB/L2U1gsWjnlp4Bd5U=
+  on:
+    repo: divanvisagie/PageServer
