@@ -1,6 +1,6 @@
 PageServer
 ==========
-
+[![Build Status](https://travis-ci.org/divanvisagie/PageServer.svg?branch=master)](https://travis-ci.org/divanvisagie/PageServer)
 [![NPM version](https://badge.fury.io/js/pageserver.png)](http://badge.fury.io/js/pageserver)
 [![NGN Dependencies](https://david-dm.org/divanvisagie/PageServer.png)](https://david-dm.org/divanvisagie/PageServer)
 

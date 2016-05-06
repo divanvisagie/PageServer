@@ -1,7 +1,7 @@
 {
   "name": "pageserver",
   "description": "Simple module for serving static pages and files out of a specified directory",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Divan Visagie <visagiedivan@gmail.com>",
   "contributors": [
     {
