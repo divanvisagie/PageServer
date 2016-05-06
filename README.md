@@ -4,9 +4,9 @@ PageServer
 [![NPM version](https://badge.fury.io/js/pageserver.png)](http://badge.fury.io/js/pageserver)
 [![NGN Dependencies](https://david-dm.org/divanvisagie/PageServer.png)](https://david-dm.org/divanvisagie/PageServer)
 
-Simple Server for serving static pages and files out of a specified directory
+Simple Light weight static file server
 
-## Installation 
+## Installation
 
 ```sh
 npm install pageserver
@@ -14,7 +14,7 @@ npm install pageserver
 
 ## Usage
 ```js
-var pageServer = require( 'pageserver' );
+var pageServer = require('pageserver');
 
 var server = pageServer({
 	port : 8079,
@@ -27,17 +27,14 @@ server.on('error',function(){
 ```
 pageServer supports a single paramater as an object with teh following properties:
 
-| Property		 | Description							 		 |
+| Property		   | Description							 		                 |
 |----------------|-----------------------------------------------|
 | port           | The port number you want to run the server on |
-| path			 | Path to the folder you want to serve          |
-| compress		 | Filestream compression ( defaults to true )   |
+| path			 		 | Path to the folder you want to serve          |
+| compress		   | Filestream compression ( defaults to true )   |
 
-## Notes:
 
-This module is under development
-
-## License 
+## License
 
 #### MIT License
 

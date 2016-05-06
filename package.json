@@ -3,26 +3,35 @@
   "description": "Simple module for serving static pages and files out of a specified directory",
   "version": "0.0.1",
   "author": "Divan Visagie <visagiedivan@gmail.com>",
-  "contributors": [ 
-    { "name": "Divan Visagie", "email": "visagiedivan@gmail.com" }
+  "contributors": [
+    {
+      "name": "Divan Visagie",
+      "email": "visagiedivan@gmail.com"
+    }
   ],
   "dependencies": {
-
-    "events": ">= 0.5.0",
-    "colors" : ">= 0.6.0",
-    "mime" : ">= 1.2.0",
-    "oppressor" : ">= 0.0.1"
+    "events": ">= 1.1.0",
+    "colors": ">= 1.1.2",
+    "mime": ">= 1.3.4",
+    "oppressor": ">= 0.0.1"
   },
   "devDependencies": {
-    
+    "jasmine": "^2.4.1",
+    "jasmine-node": "^1.14.5",
+    "phantomjs": "^2.1.7",
+    "selenium-webdriver": "^2.53.2"
   },
-  "keywords": [ "pageserver" , "static" ],
+  "keywords": [
+    "pageserver",
+    "static"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/divanvisagie/PageServer"
   },
   "main": "./lib/pageserver",
-  "preferGlobal": "false",
-  "scripts" : { "test" : "node ./tests/test.js" },
-  "engines": { "node": ">= 0.8.x" }
+  "scripts": {
+    "test": "jasmine --color"
+  },
+  "license": "MIT"
 }
